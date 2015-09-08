@@ -1,0 +1,90 @@
+html, body, header, 
+header, section, h1, h2, h3, footer, #Professional-Summary,#Contact-info, #Contact-info, .date, ul, li {
+	padding:0;
+	border:0;
+	margin:0;
+}
+body { 
+	font: 16px Sans-serif;
+	padding:40px 95px 40px 95px;
+	background-color:#333333;
+	color:#432f21;
+
+}
+
+header {
+	font-size:60px;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom:15px;
+	border-radius:15px;
+	background-color:#dddad6;
+}
+section {
+	background-color: #75A3d1;
+	padding:10px 0 10px 20px;
+	border-radius:15px;;
+}
+h2 {
+	border-bottom: 1px solid black;
+	margin: 15px 0 15px 0;
+}
+h1 {
+	font-size: 30px;
+	margin:10px 0 10px;
+	font-weight: lighter;
+}
+img{
+	float:right;
+	padding: 0 15px 0 0;
+	}
+#Professional-Summary p {
+	font-style: italic;
+	margin: 20px 400px 30px 0;
+	padding:15px;
+	border-radius: 15px;
+	background-color: #c7d0d5;
+}
+.date {
+	float: right;
+	padding-right: 10px;
+}
+ul {
+	font-size: 15px;
+	padding:0 0 0 50px;
+}
+h3 {
+	font-size: 18px;
+	margin:15px 0 15px 0;
+}
+footer {
+	text-align: center;
+	margin: 15px 0 0 0 ;
+	background-color:#dddad6;
+	height: 50px;
+	padding-top:20px;
+	border-radius: 15px;
+}
+footer li {
+	display:inline;
+	padding-left:65px;
+}
+#resume {
+	display: none;
+}
+button {
+	border-radius:18px;
+	border:1px solid #75A3d1;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
